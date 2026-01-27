@@ -1,9 +1,10 @@
-## Ejercicio: Suma de números primos
+## Exercise: Sum of Prime Numbers
 
-### Descripción
-Crear una función que reciba un número `num` y devuelva la **suma de todos los números primos** menores o iguales a `num`. Se implementaron dos soluciones, una mas "moderna" y una mas algoritmca.
+### Description
+Create a function that receives a number num and returns the sum of all prime numbers less than or equal to num.
+Two solutions were implemented.
 
-### Ejemplos
+### Examples
 ```javascript
 console.log(sumPrimes(10)); // 17
 console.log(sumPrimesAlt(10)); // 17
