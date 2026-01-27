@@ -1,6 +1,6 @@
-# Ejercicio: Smart Word Replacement Function
+# Exercise: Smart Word Replacement Function
 
-Este ejercicio implementa una función en JavaScript que realiza un search & replace dentro de una oración, preservando la mayúscula inicial de la palabra original.
+This exercise implements a JavaScript function that performs a search and replace operation within a sentence, while preserving the original word’s initial capitalization
 
 ### Ejemplos
 ```javascript
