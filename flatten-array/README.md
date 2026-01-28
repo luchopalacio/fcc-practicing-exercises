@@ -1,18 +1,19 @@
-## Ejercicio: "Aplanar" un array
+## Exercise: Flatten an Array
 
-### Descripción
-Dado un array, expresarlo como un array "plano", es decir, si se ingresa un array que contiene otros arrays (a cualquier profundidad) se busca devolver un nuevo array unidimensional, manteniendo el orden original de los elementos y sin modificar los valores que no sean arrays.
+### Description
+Given an array, return it as a flat array.
+If the input array contains nested arrays (at any depth), the function should return a new one-dimensional array, preserving the original order of elements and without modifying non-array values.
 
-### Versión V1
-Resuelto de forma recursiva:
-1- Se recorre el array recibido como argumento.
-2- Para cada elemento:
-    Si es un array, se vuelve a aplicar la misma función sobre ese elemento.
-    Si no es un array, se agrega directamente al resultado.
-3- El resultado de cada llamada recursiva se integra al array final.
-Este proceso se repite hasta que ya no queden arrays anidados.
+### Version v1
+Solved using recursion:
+1- Iterate over the array passed as an argument.
+2- For each element:
+    -If it is an array, apply the same function recursively.
+    -If it is not an array, add it directly to the result.
+3- The result of each recursive call is merged into the final array.
+This process repeats until no nested arrays remain.
 
-### Ejemplos
+### Examples
 ```javascript
 console.log( steamrollArray( [1, [2], [3, [[4]]]]) ); // [1, 2, 3, 4]
 console.log( steamrollArray([1, {}, [2, [3]], "hola"]) );// [1, {}, 2, 3, "hola"]

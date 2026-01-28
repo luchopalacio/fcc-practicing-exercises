@@ -1,8 +1,8 @@
-# Pig Latin Translator
+# Exercise: Pig Latin Translator
 
-funcion simple en JavaScript function que traduce palabras en ingles a "pig latin" (lenguaje secreto del inglés que modifica palabras: si empieza con consonante, se mueve al final y se añade "ay" (ej: "hello" -> "ellohay"), si empieza con vocal, se añade "way" al final (ej: "eat" -> "eatway").)  
+Simple JavaScript function that translates English words into Pig Latin: a secret english language transformation: If a word starts with a consonant, the consonant (or consonant cluster) is moved to the end and "ay" is added (e.g: "hello" → "ellohay"), If a word starts with a vowel, "way" is added to the end (e.g: "eat" -> "eatway")
 
-## Ejemplos
+## Examples
 
 ```js
 translatePigLatin("glove"); // "oveglay"

@@ -1,10 +1,11 @@
-# Ejercicio: crear un conversor de Spinal Case
+# Exercise: Spinal Case Converter (Using Regular Expressions)
 
-## Descripcion 
+## Description
 
-Ejercicio en JavaScript que utiliza **regex** para detectar si un texto contiene una letra mayúscula inmediatamente después de una letra minúscula o espacios y guiones bajos o medios entre palabras. Luego se convertira ese texto a Spinal Case (formato donde todas las palabras estan en minúscula y separadas por guiones).
+JavaScript exercise that uses regular expressions to detect whether a text contains an uppercase letter immediately after a lowercase letter, as well as spaces and underscores or hyphens between words.
+The text is then converted to Spinal Case (a format where all words are lowercase and separated by hyphens).
 
-### Ejemplos
+### Examples
 ```javascript
 console.log(spinalCase("HolaComoEstas"));   //hola-como-estas
 console.log(spinalCase("Implementando funciones de_expresiones--regularesO   'regex'"));    //implementando-funciones-de-expresiones-regulares-o-'regex'
